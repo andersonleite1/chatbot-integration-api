@@ -17,7 +17,7 @@ const updateDataId = async (req, res, next) => {
 
     const stringDatas = JSON.stringify(dataInfo, null, 2);
     await writeFile('./data.json', stringDatas);
-    return res.status(200).end();
+    return res.setHeader("Access-Control-Allow-Origin", "*").status(200).end();
   } catch (err) {
     next(err);
   }

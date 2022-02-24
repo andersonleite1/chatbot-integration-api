@@ -6,7 +6,7 @@ const listData = async (_req, res, next) => {
     const parsedData = JSON.parse(data);
 
     if (parsedData.length < 1) return res.status(200).send([]);
-    return res.status(200).json(parsedData);
+    return res.setHeader("Access-Control-Allow-Origin", "*").status(200).json(parsedData);
   } catch (err) {
     return next(err);
   }

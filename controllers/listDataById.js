@@ -8,7 +8,7 @@ const listDataId = async (req, res, next) => {
     const data = parsedDatas.find((d) => d.id === parseInt(id, 10));
 
     if (!data) {
-      return res.status(404).json(
+      return res.setHeader("Access-Control-Allow-Origin", "*").status(404).json(
         {
           message: 'Data not found', 
         },
