@@ -22,7 +22,7 @@ app.get(
   controller.listDataId
 );
 
-app.post('/data',
+app.put('/data',
   controller.updateDataId
 );
 
