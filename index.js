@@ -17,12 +17,7 @@ app.get(
   controller.listData
 );
 
-app.get(
-  '/data/:id',
-  controller.listDataId
-);
-
-app.put('/data',
+app.get('/data/:id',
   controller.updateDataId
 );
 

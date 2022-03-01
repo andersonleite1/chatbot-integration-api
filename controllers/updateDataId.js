@@ -2,7 +2,7 @@ const { readFile, writeFile } = require('fs/promises');
 
 const updateDataId = async (req, res, next) => {
   try {
-    let { id } = req.body;
+    let { id } = req.params;
     id = parseInt(id, 10);
     const datas = await readFile('./data.json', 'utf-8');
     const parsedDatas = JSON.parse(datas);
