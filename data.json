@@ -14,5 +14,37 @@
   {
     "id": 4,
     "moveBack": false
+  },
+  {
+    "id": 5,
+    "entrance": false
+  },
+  {
+    "id": 6,
+    "museumGuide": false
+  },
+  {
+    "id": 7,
+    "infographicOne": false
+  },
+  {
+    "id": 8,
+    "infographicTwo": false
+  },
+  {
+    "id": 9,
+    "standsOne": false
+  },
+  {
+    "id": 10,
+    "standsTwo": false
+  },
+  {
+    "id": 11,
+    "standsTwo": false
+  },
+  {
+    "id": 12,
+    "museumCenter": false
   }
 ]
