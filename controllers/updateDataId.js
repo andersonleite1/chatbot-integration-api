@@ -20,6 +20,9 @@ const updateDataId = async (req, res, next) => {
       if(id === 10 && id === dt.id) dt.standsTwo = false;
       if(id === 11 && id === dt.id) dt.bathroom = false;
       if(id === 12 && id === dt.id) dt.museumCenter = false;
+      if(id === 13 && id === dt.id) dt.reception = false;
+      if(id === 14 && id === dt.id) dt.comercialRoom = false;
+      if(id === 15 && id === dt.id) dt.library = false;
       return dt;
     });
 

@@ -46,5 +46,17 @@
   {
     "id": 12,
     "museumCenter": false
+  },
+  {
+    "id": 13,
+    "reception": false
+  },
+  {
+    "id": 14,
+    "comercialRoom": false
+  },
+  {
+    "id": 15,
+    "library": false
   }
 ]

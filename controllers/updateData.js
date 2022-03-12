@@ -42,6 +42,15 @@ const updateData = async (req, res, next) => {
       case 'museumCenter':
         id = 12;
         break;
+      case 'reception':
+        id = 13;
+        break;
+      case 'comercialRoom':
+        id = 14;
+        break;
+      case 'library':
+      id = 15;
+      break;
       default:
         break;
     }
