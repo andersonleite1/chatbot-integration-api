@@ -71,6 +71,9 @@ const updateData = async (req, res, next) => {
       if(id === 10 && id === dt.id) dt.standsTwo = true;
       if(id === 11 && id === dt.id) dt.bathroom = true;
       if(id === 12 && id === dt.id) dt.museumCenter = true;
+      if(id === 13 && id === dt.id) dt.reception = true;
+      if(id === 14 && id === dt.id) dt.comercialRoom = true;
+      if(id === 15 && id === dt.id) dt.library = true;
       return dt;
     });
     
